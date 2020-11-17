@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import 'materialize-css';
+import { Button, Card, Row, Col } from 'react-materialize';
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -22,14 +24,14 @@ function NavTabs() {
           About
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/blog"
           className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
         >
           Blog
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/contact"
