@@ -2,6 +2,9 @@ import React from "react";
 import 'materialize-css';
 import { Button, Card, Row, Col } from 'react-materialize';
 
+const Icon = 1;
+const CardTitle = "Weather App";
+ 
 function Portfolio() {
   return (
     <Row>
@@ -11,13 +14,13 @@ function Portfolio() {
   >
     <Card
       actions={[
-        <a key="1" href="#">This is a Link</a>
+        <a key="1" href="https://jen6one9.github.io/that-weather-dashboard/" target="_blank"></a>
       ]}
       closeIcon={<Icon>close</Icon>}
-      header={<CardTitle image="https://materializecss.com/images/sample-1.jpg">Card Title</CardTitle>}
+      header={<CardTitle image="https://materializecss.com/images/sample-1.jpg">Weather Dashboard</CardTitle>}
       revealIcon={<Icon>more_vert</Icon>}
     >
-      Here is the standard card with an image thumbnail.
+      Simple weather app that leverages the OpenWeather API.
     </Card>
   </Col>
 </Row>
