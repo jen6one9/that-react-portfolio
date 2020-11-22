@@ -1,6 +1,5 @@
 import React from "react";
-import 'materialize-css';
-import { Button, Card, Row, Col } from 'react-materialize';
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -29,7 +28,7 @@ function Home() {
 
               <div className="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
-                <h2 className="content-head content-head-ribbon">"Fail to Plan... Plan to Fail". -Ben Franklin</h2>
+                <h3 className="content-head content-head-ribbon">"Fail to Plan... Plan to Fail". -Ben Franklin</h3>
 
                 <p>
                   Planning makes all the difference in the successful completion of projects. By spending time to
@@ -38,10 +37,12 @@ function Home() {
               </div>
             </div>
 
-            <div className="l-box-lrg pure-u-1 pure-u-md-3-5">
-              <h4>Questions or Comments?</h4>
-              <p>
-                Connect with me on <a href="mailto:diesta.jeneth@gmail.com"> Email</a>
+            <br></br>
+
+      <div className="l-box-lrg pure-u-1 pure-u-md-3-5">
+        <h4>Questions or Comments?</h4>
+        <p>
+          Connect with me on <a href="mailto:diesta.jeneth@gmail.com"> Email </a>
                 <a href="https://www.linkedin.com/in/jeneth-diesta/" target="_blank">LinkedIn</a> or <a
                   href="https://github.com/jen6one9" target="_blank">GitHub</a>
 
